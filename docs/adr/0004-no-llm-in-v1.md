@@ -1,7 +1,7 @@
 # 0004. No LLM inside DevLens (for now)
 
 - **Status:** Accepted
-- **Date:** 2026-11-23
+- **Date:** 2026-11-22
 - **Decided by:** João Alves
 
 ## Context

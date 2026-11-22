@@ -1,7 +1,7 @@
 # 0003. Local-first: no hosted backend
 
 - **Status:** Accepted
-- **Date:** 2026-11-23
+- **Date:** 2026-11-22
 - **Decided by:** João Alves
 
 ## Context

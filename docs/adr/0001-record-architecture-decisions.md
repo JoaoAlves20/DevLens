@@ -1,7 +1,7 @@
 # 0001. Record architecture decisions
 
 - **Status:** Accepted
-- **Date:** 2026-11-23
+- **Date:** 2026-11-22
 - **Decided by:** João Alves
 
 ## Context

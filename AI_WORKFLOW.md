@@ -19,7 +19,7 @@ project while keeping full ownership of the decisions.
 2. **Every decision is recorded** in [DECISIONS.md](DECISIONS.md); larger ones get an
    [ADR](docs/adr/).
 3. **Nothing reaches `main` without approval.** Work happens on a feature branch, CI
-   must be green, and the AI merges only after the owner explicitly approves.
+   must be green, and the AI squash-merges.only after the owner explicitly approves.
 4. **Quality gates are automated.** Ruff (lint + format), mypy (strict) and pytest with
    a coverage floor run locally (pre-commit) and in CI on every PR.
 5. **The analysis engine is deterministic.** DevLens does not use an LLM to produce

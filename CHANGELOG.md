@@ -6,7 +6,7 @@ project uses [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-## [0.0.1] - 2026-11-23
+## [0.0.1] - 2026-11-22
 
 ### Added
 - Project foundation: `devlens` Python package with a Typer CLI (`--version`, `info`).
