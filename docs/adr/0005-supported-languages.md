@@ -1,7 +1,7 @@
 # 0005. Languages supported in v1
 
 - **Status:** Accepted
-- **Date:** 2026-11-23
+- **Date:** 2026-11-22
 - **Decided by:** João Alves
 
 ## Context

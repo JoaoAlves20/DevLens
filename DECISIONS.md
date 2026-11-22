@@ -20,10 +20,11 @@ Larger decisions get a full Architecture Decision Record in [`docs/adr/`](docs/a
 | D-010 | 2026-11-22 | Git workflow | One branch + PR per feature | Direct commits to `main` | — |
 | D-011 | 2026-11-22 | AI transparency | Public `AI_WORKFLOW.md` | Not disclosed | — |
 | D-012 | 2026-11-22 | License | MIT | — | — |
-| D-013 | 2026-11-23 | Package / command name | `devlens` (fallback `devlens-cli` on PyPI if taken, command stays `devlens`) | `devlens-cli`, `dlens` | — |
-| D-014 | 2026-11-23 | Minimum Python version | 3.11+ (CI tests 3.11 – 3.14) | 3.12+, 3.13+ | [0002](docs/adr/0002-technology-stack.md) |
-| D-015 | 2026-11-23 | Commit / branch convention | Conventional Commits; branches `feat/…`, `fix/…`, `docs/…` | Scoped conventional commits; free-form | — |
-| D-016 | 2026-11-23 | Commit author identity | Configured per repository with the owner's chosen e-mail | Global config by the owner | — |
-| D-017 | 2026-11-23 | Who pushes and opens PRs | The AI commits, pushes and opens PRs (via GitHub CLI) | Owner pushes and opens PRs | — |
-| D-018 | 2026-11-23 | Merge policy | The AI merges **only after explicit owner approval** and green CI | Auto-merge on green CI; owner merges on GitHub | — |
-| D-019 | 2026-11-23 | Repository layout | Single installable Python package (`src/devlens`) holding engine, CLI and API; `web/` and `action/` as adapters | Separate `engine/` and `api/` top-level packages | [0002](docs/adr/0002-technology-stack.md) |
+| D-013 | 2026-11-22 | Package / command name | `devlens` (fallback `devlens-cli` on PyPI if taken, command stays `devlens`) | `devlens-cli`, `dlens` | — |
+| D-014 | 2026-11-22 | Minimum Python version | 3.11+ (CI tests 3.11 – 3.14) | 3.12+, 3.13+ | [0002](docs/adr/0002-technology-stack.md) |
+| D-015 | 2026-11-22 | Commit / branch convention | Conventional Commits; branches `feat/…`, `fix/…`, `docs/…` | Scoped conventional commits; free-form | — |
+| D-016 | 2026-11-22 | Commit author identity | Configured per repository with the owner's chosen e-mail | Global config by the owner | — |
+| D-017 | 2026-11-22 | Who pushes and opens PRs | The AI commits, pushes and opens PRs (via GitHub CLI) | Owner pushes and opens PRs | — |
+| D-018 | 2026-11-22 | Merge policy | The AI merges **only after explicit owner approval** and green CI | Auto-merge on green CI; owner merges on GitHub | — |
+| D-019 | 2026-11-22 | Repository layout | Single installable Python package (`src/devlens`) holding engine, CLI and API; `web/` and `action/` as adapters | Separate `engine/` and `api/` top-level packages | [0002](docs/adr/0002-technology-stack.md) |
+| D-020 | 2026-11-22 | Merge style | Squash merge: one commit per PR on `main` | Merge commit; rebase merge | — |
