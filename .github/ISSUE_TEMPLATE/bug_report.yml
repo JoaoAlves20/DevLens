@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in DevLens does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you run, and what did DevLens do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository analyzed
+      description: Public URL of the repository, if you can share it.
+  - type: input
+    id: version
+    attributes:
+      label: DevLens version
+      description: Output of `devlens --version`
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and Python version

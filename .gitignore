@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.python-version
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / web (from Day 14)
+node_modules/
+web/.next/
+web/out/
+
+# DevLens runtime data (from Day 12)
+.devlens/
+*.sqlite3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
