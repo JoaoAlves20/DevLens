@@ -26,3 +26,4 @@ Larger decisions get a full Architecture Decision Record in [`docs/adr/`](docs/a
 | D-016 | 2026-11-23 | Commit author identity | Configured per repository with the owner's chosen e-mail | Global config by the owner | — |
 | D-017 | 2026-11-23 | Who pushes and opens PRs | The AI commits, pushes and opens PRs (via GitHub CLI) | Owner pushes and opens PRs | — |
 | D-018 | 2026-11-23 | Merge policy | The AI merges **only after explicit owner approval** and green CI | Auto-merge on green CI; owner merges on GitHub | — |
+| D-019 | 2026-11-23 | Repository layout | Single installable Python package (`src/devlens`) holding engine, CLI and API; `web/` and `action/` as adapters | Separate `engine/` and `api/` top-level packages | [0002](docs/adr/0002-technology-stack.md) |
